@@ -369,6 +369,7 @@
     <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
     <ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" />
     <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" />
+    <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice" value="0" />
     <!-- Voice HDMI -->
     <ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" />
     <!-- Voice BTSCO -->
@@ -384,6 +385,7 @@
     <ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" />
     <ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" />
     <ctl name="Voice2_Tx Mixer SLIM_0_TX_Voice2" value="0" />
+    <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice2" value="0" />
     <!-- Voice2 HDMI -->
     <ctl name="HDMI_RX_Voice Mixer Voice2" value="0" />
     <!-- Voice2 BTSCO -->
