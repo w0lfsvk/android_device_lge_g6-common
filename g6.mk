@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lucye
+    android.hardware.light@2.0-service.lucye \
+    android.hardware.light@2.0-impl
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -52,10 +53,6 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_lucye.conf:system/etc/sensors/sensor_def_common.conf
-
-# Lights
-PRODUCT_PACKAGES += \
-    lights.h870_sys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.lights=h870_sys
